@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+project(doctest-sample)
+enable_testing()
+include_directories(ext/doctest)
+add_subdirectory(src)
